@@ -52,8 +52,8 @@
 </div>
 <div class="container upper">
 	<div class="float-right">
-		<button>Upload Employee details</button>
-		<button>Download Employee details</button>
+		<button method = "post" onclick="location.href ='/addemployee'" >Upload Employee details</button>
+		<button onclick="location.href ='/downloadcsv'">Download Employee details</button>
 	</div>
 	<div>
 		<h1 class ="border border-3 text-center ">Employee Listing</h1>

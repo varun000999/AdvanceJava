@@ -1,5 +1,7 @@
 package com.nagarro.hrdashboard.controllers;
 
+import java.util.ArrayList;
+
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -57,6 +59,8 @@ public class EmployeeEditingController {
 		  return "employeedetails";
 	  }
 	  UpdatingRecord.update(id,user);
+	  final ArrayList<Employee> lst=AddingDummyEmployees.giveemployees();
+	  model.addAttribute("employee_list",lst);
 	  return "employeelisting";
 	}
 }

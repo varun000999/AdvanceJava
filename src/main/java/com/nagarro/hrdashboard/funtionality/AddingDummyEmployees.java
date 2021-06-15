@@ -63,7 +63,4 @@ public class AddingDummyEmployees {
 		}
 		return id.substring(i+1);
 	}
-	public void addemployee() {
-		// make employee with input detaisl and add it to the lst.
-	}
 }
