@@ -15,7 +15,7 @@ import com.nagarro.hrdashboard.funtionality.UpdatingRecord;
 import com.nagarro.hrdashboard.model.Employee;
 
 /**
- * This is the controller class for Employee Editing
+ * This controller class for Employee Editing
  * 
  * @author varunrawat
  *
