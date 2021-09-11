@@ -88,7 +88,7 @@
 <input onclick="location.href ='/employeelisting'" form="myform" type="submit" value="Save">
 <button onclick="location.href ='/employeelisting'" >Cancel</button>
 </div>
-<div class="footer-copyright text-center py-0 bg-secondary text-white fixed-bottom"> Copyright 2020-2021 by Fresher Training<!--© 2020 Copyright:--></div>
+<div class="footer-copyright text-center py-0 bg-secondary text-white fixed-bottom"> Copyright 2020-2021 by Varun Rawat<!--© 2020 Copyright:--></div>
     <script src="webjars/jquery/3.1.1/jquery.min.js"></script>
 	<script src="webjars/bootstrap/5.0.1/js/bootstrap.min.js"></script>
 </body>
